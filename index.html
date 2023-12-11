@@ -3,7 +3,7 @@
 
   <title>Xinyuan (Youki) Cao</title>
   
-  <meta name="author" content="Xinyuan Can">
+  <meta name="author" content="Xinyuan Cao">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -43,14 +43,16 @@
             </td>
           </tr>
         </tbody></table>
-        
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Publications </heading>
             </td>
           </tr>
         </tbody></table>
-        
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 		
 	<tr onmouseout="cmom_stop()" onmouseover="cmom_start()">
@@ -145,6 +147,15 @@
             </td>
           </tr>
 
+	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Preprints </heading>
+            </td>
+          </tr>
+        </tbody></table>
+	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
 	<tr onmouseout="bst_stop()" onmouseover="bst_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -185,12 +196,46 @@
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Preprints </heading>
+              <heading>Publications </heading>
             </td>
           </tr>
         </tbody></table>
-	
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+		
+	<tr onmouseout="cmom_stop()" onmouseover="cmom_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='cmom_image'>
+                  <img src='images/cmom2.jpg' height="120"></div>
+                <img src='images/cmom1.jpg' height="120">
+              </div>
+              <script type="text/javascript">
+                function cmom_start() {
+                  document.getElementById('cmom_image').style.opacity = "1";
+                }
+
+                function cmom_stop() {
+                  document.getElementById('cmom_image').style.opacity = "0";
+                }
+                cmom_stop()
+              </script>
+            </td>
+	
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2311.01435">
+                <papertitle>Contrastive Moments: Unsupervised Halfspace Learning in Polynomial Time</papertitle>
+              </a>
+              <br>
+	      <strong>Xinyuan Cao</strong>,
+              <a href="https://faculty.cc.gatech.edu/~vempala/">Santosh Vempala</a>
+	      <p>NeurIPS 2023</p>
+              <p></p>
+              <p>
+              We propose a provable and efficient unsupervised learning algorithm to learn the max margin classifier with linearly separable unlabeled data through a contrastive approach. The approach uses re-weighted first and second moments to compute the direction of the max margin classifier.
+              </p>
+            </td>
+          </tr>
 
 
 </body>
