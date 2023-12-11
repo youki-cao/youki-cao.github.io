@@ -147,6 +147,43 @@
             </td>
           </tr>
 
+	<tr onmouseout="bst_stop()" onmouseover="bst_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='bst_image'>
+                  <img src='images/bst2.png' height="120"></div>
+                <img src='images/bst1.png' height="120">
+              </div>
+              <script type="text/javascript">
+                function bst_start() {
+                  document.getElementById('bst_image').style.opacity = "1";
+                }
+
+                function bst_stop() {
+                  document.getElementById('bst_image').style.opacity = "0";
+                }
+                bst_stop()
+              </script>
+            </td>
+	
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2211.09251">
+                <papertitle>Learning-Augmented B-Trees</papertitle>
+              </a>
+              <br>
+	      <strong>Xinyuan Cao</strong>,
+              <a href="https://chenjb1997.github.io/">Jingbang Chen</a>,
+		<a href="https://lic225.github.io/">Li Chen</a>,
+		<a>Chris Lambert</a>,
+		<a href="https://www.cs.cmu.edu/~yangp/">Richard Peng</a>,
+		<a href="https://www.cs.cmu.edu/~sleator/">Daniel Sleator</a>
+              <p></p>
+              <p>
+              We study learning-augmented binary search trees (BSTs) and B-Trees via Treaps with composite priorities. It also gives the first B-Tree data structure that can provably take advantage of localities in the access sequence via online self-reorganization. The data structure is robust to prediction errors and handles insertions, deletions, as well as prediction updates.
+              </p>
+            </td>
+          </tr>
+
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
